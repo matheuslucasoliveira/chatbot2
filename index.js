@@ -19,7 +19,7 @@ const app = express();
 
 // Configurar CORS
 app.use(cors({
-    origin: ['https://chatbot-2zn1.onrender.com', 'http://localhost:3000'],
+    origin: ['https://inspiring-cajeta-9f24c2.netlify.app/'],
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
 }));
